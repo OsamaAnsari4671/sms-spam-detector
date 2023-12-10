@@ -50,7 +50,7 @@ def predict_spam(text):
     return label
 
 # app
-st.title("Spam Detector")
+st.title("Osama's Spam Detector")
 
 # Sidebar with app information
 st.sidebar.markdown(
