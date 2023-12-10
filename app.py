@@ -10,6 +10,7 @@ from sklearn.naive_bayes import MultinomialNB
 import pickle
 import nltk
 nltk.download('stopwords')
+nltk.download("punkt")
 from nltk.corpus import stopwords
 stop_words = list(stopwords.words('english'))
 from nltk.stem import PorterStemmer
