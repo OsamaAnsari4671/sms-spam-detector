@@ -19,11 +19,11 @@ stemmer = PorterStemmer()
 
 
 # Loading the model
-model = pickle.load(open("D:/osama/sms-spam-detector/model.pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb"))
 
     
 # Vectorizer
-vectorize_text = pickle.load(open("D:/osama/sms-spam-detector/vectorizer.pkl", "rb"))
+vectorize_text = pickle.load(open("vectorizer.pkl", "rb"))
 
 
 
